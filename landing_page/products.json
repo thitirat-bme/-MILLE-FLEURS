@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": "recovery-trial-100",
+      "name": "Recovery & Repair Trial Size 100 ml",
+      "mood": "Recovery & Repair",
+      "size": "100 ml (Trial Size)",
+      "price": 159,
+      "image": "images/Recovery .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น สำหรับผมเสียจากความร้อนและสารเคมี ขนาดทดลองใช้ก่อนตัดสินใจ"
+    },
+    {
+      "id": "recovery-travel-150",
+      "name": "Recovery & Repair Travel Size 150 ml",
+      "mood": "Recovery & Repair",
+      "size": "150 ml (Travel Size)",
+      "price": 199,
+      "image": "images/Recovery .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น ขนาดพกพาสะดวก เหมาะกับการเดินทางหรือใช้ต่อเนื่องหลังไซส์ทดลอง"
+    },
+    {
+      "id": "recovery-value-300",
+      "name": "Recovery & Repair Value Size 300 ml",
+      "mood": "Recovery & Repair",
+      "size": "300 ml (Value Size)",
+      "price": 350,
+      "image": "images/Recovery .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น ขนาดคุ้มค่า สำหรับการดูแลผมเสียอย่างต่อเนื่องในทุกสัปดาห์"
+    },
+    {
+      "id": "recovery-family-500",
+      "name": "Recovery & Repair Family Size 500 ml",
+      "mood": "Recovery & Repair",
+      "size": "500 ml (Family Size)",
+      "price": 490,
+      "image": "images/Recovery .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+    },
+    {
+      "id": "scalp-trial-100",
+      "name": "Scalp Balance & Anti-Dandruff Trial Size 100 ml",
+      "mood": "Scalp Balance & Anti-Dandruff",
+      "size": "100 ml (Trial Size)",
+      "price": 159,
+      "image": "images/Scalp Balance .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ลดรังแคและอาการคัน ขนาดทดลองใช้ก่อนตัดสินใจ"
+    },
+    {
+      "id": "scalp-travel-150",
+      "name": "Scalp Balance & Anti-Dandruff Travel Size 150 ml",
+      "mood": "Scalp Balance & Anti-Dandruff",
+      "size": "150 ml (Travel Size)",
+      "price": 199,
+      "image": "images/Scalp Balance .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ขนาดพกพาสะดวก ให้หนังศีรษะสดชื่นทุกที่ทุกเวลา"
+    },
+    {
+      "id": "scalp-value-300",
+      "name": "Scalp Balance & Anti-Dandruff Value Size 300 ml",
+      "mood": "Scalp Balance & Anti-Dandruff",
+      "size": "300 ml (Value Size)",
+      "price": 350,
+      "image": "images/Scalp Balance .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ขนาดคุ้มค่า สำหรับดูแลหนังศีรษะอย่างต่อเนื่อง"
+    },
+    {
+      "id": "scalp-family-500",
+      "name": "Scalp Balance & Anti-Dandruff Family Size 500 ml",
+      "mood": "Scalp Balance & Anti-Dandruff",
+      "size": "500 ml (Family Size)",
+      "price": 490,
+      "image": "images/Scalp Balance .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+    },
+    {
+      "id": "moisture-trial-100",
+      "name": "Deep Moisture & Glossy Trial Size 100 ml",
+      "mood": "Deep Moisture & Glossy",
+      "size": "100 ml (Trial Size)",
+      "price": 159,
+      "image": "images/Deep Moisture .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดทดลองใช้ก่อนตัดสินใจ"
+    },
+    {
+      "id": "moisture-travel-150",
+      "name": "Deep Moisture & Glossy Travel Size 150 ml",
+      "mood": "Deep Moisture & Glossy",
+      "size": "150 ml (Travel Size)",
+      "price": 199,
+      "image": "images/Deep Moisture .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดพกพาสะดวก เติมความเงางามได้ทุกที่"
+    },
+    {
+      "id": "moisture-value-300",
+      "name": "Deep Moisture & Glossy Value Size 300 ml",
+      "mood": "Deep Moisture & Glossy",
+      "size": "300 ml (Value Size)",
+      "price": 350,
+      "image": "images/Deep Moisture .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดคุ้มค่า สำหรับผมนุ่มเงางามต่อเนื่อง"
+    },
+    {
+      "id": "moisture-family-500",
+      "name": "Deep Moisture & Glossy Family Size 500 ml",
+      "mood": "Deep Moisture & Glossy",
+      "size": "500 ml (Family Size)",
+      "price": 490,
+      "image": "images/Deep Moisture .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+    },
+    {
+      "id": "organic-trial-100",
+      "name": "Organic Anti-Hair Fall Trial Size 100 ml",
+      "mood": "Organic Anti-Hair Fall",
+      "size": "100 ml (Trial Size)",
+      "price": 159,
+      "image": "images/Organic .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง บำรุงรากผมให้แข็งแรง ขนาดทดลองใช้ก่อนตัดสินใจ"
+    },
+    {
+      "id": "organic-travel-150",
+      "name": "Organic Anti-Hair Fall Travel Size 150 ml",
+      "mood": "Organic Anti-Hair Fall",
+      "size": "150 ml (Travel Size)",
+      "price": 199,
+      "image": "images/Organic .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง ขนาดพกพาสะดวก ดูแลรากผมได้ทุกที่"
+    },
+    {
+      "id": "organic-value-300",
+      "name": "Organic Anti-Hair Fall Value Size 300 ml",
+      "mood": "Organic Anti-Hair Fall",
+      "size": "300 ml (Value Size)",
+      "price": 350,
+      "image": "images/Organic .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง ขนาดคุ้มค่า สำหรับบำรุงรากผมอย่างต่อเนื่อง"
+    },
+    {
+      "id": "organic-family-500",
+      "name": "Organic Anti-Hair Fall Family Size 500 ml",
+      "mood": "Organic Anti-Hair Fall",
+      "size": "500 ml (Family Size)",
+      "price": 490,
+      "image": "images/Organic .jpg",
+      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+    }
+  ]
+}
