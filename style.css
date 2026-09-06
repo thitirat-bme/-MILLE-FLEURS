@@ -385,19 +385,13 @@ p {
   color: var(--color-text-faint);
 }
 
-/* Mood accent bindings — ใช้แต้มสีเบาๆ เท่านั้น ไม่ทาพื้นหลังเต็มการ์ด */
-.product-card[data-mood="Recovery & Repair"] {
-  --mood-color: var(--mood-recovery);
-}
-.product-card[data-mood="Scalp Balance & Anti-Dandruff"] {
-  --mood-color: var(--mood-scalp);
-}
-.product-card[data-mood="Deep Moisture & Glossy"] {
-  --mood-color: var(--mood-moisture);
-}
-.product-card[data-mood="Organic Anti-Hair Fall"] {
-  --mood-color: var(--mood-organic);
-}
+/* Mood accent bindings — ใช้แต้มสีเบาๆ เท่านั้น ไม่ทาพื้นหลังเต็มการ์ด
+   ใช้ attribute selector กลาง ไม่ผูกกับ class ใดเป็นการเฉพาะ
+   จึงใช้ร่วมกันได้ทั้ง .product-card, .mood-pill, .story-card */
+[data-mood="Recovery & Repair"] { --mood-color: var(--mood-recovery); }
+[data-mood="Scalp Balance & Anti-Dandruff"] { --mood-color: var(--mood-scalp); }
+[data-mood="Deep Moisture & Glossy"] { --mood-color: var(--mood-moisture); }
+[data-mood="Organic Anti-Hair Fall"] { --mood-color: var(--mood-organic); }
 
 /* Mood filter pills (ใช้เลือกดูสินค้าตาม mood) */
 .mood-filters {
@@ -435,10 +429,59 @@ p {
   color: var(--color-text);
 }
 
-.mood-pill[data-mood="Recovery & Repair"] { --mood-color: var(--mood-recovery); }
-.mood-pill[data-mood="Scalp Balance & Anti-Dandruff"] { --mood-color: var(--mood-scalp); }
-.mood-pill[data-mood="Deep Moisture & Glossy"] { --mood-color: var(--mood-moisture); }
-.mood-pill[data-mood="Organic Anti-Hair Fall"] { --mood-color: var(--mood-organic); }
+/* ==========================================================================
+   Story cards (หน้าแรก — 4 มู้ดของสูตร)
+   ========================================================================== */
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-sm);
+}
+
+.story-card {
+  display: block;
+  padding: var(--space-md) var(--space-sm);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-md);
+  transition: border-color var(--duration-mid) var(--ease-standard),
+              transform var(--duration-mid) var(--ease-standard);
+}
+
+.story-card:hover,
+.story-card:focus-visible {
+  border-color: var(--mood-color, var(--color-gold));
+  transform: translateY(-2px);
+}
+
+.story-card__dot {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--mood-color, var(--color-gold));
+  margin-bottom: var(--space-sm);
+}
+
+.story-card__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  margin-bottom: var(--space-xs);
+}
+
+.story-card__desc {
+  font-size: var(--fs-sm);
+  line-height: 1.75;
+  margin-bottom: var(--space-sm);
+}
+
+.story-card__line {
+  font-size: var(--fs-xs);
+  color: var(--color-text-faint);
+  padding-top: var(--space-xs);
+  border-top: 1px solid var(--color-border-soft);
+}
 
 /* ==========================================================================
    Hero
@@ -526,6 +569,141 @@ p {
 }
 
 /* ==========================================================================
+   Form (order.html)
+   ========================================================================== */
+
+.form-card {
+  max-width: 640px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.form-field {
+  margin-bottom: var(--space-md);
+}
+
+.form-field label {
+  display: block;
+  font-size: var(--fs-sm);
+  color: var(--color-text-soft);
+  margin-bottom: var(--space-2xs);
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.85em 1em;
+  transition: border-color var(--duration-fast) var(--ease-standard);
+}
+
+.form-field textarea {
+  min-height: 7rem;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--color-gold);
+}
+
+.form-field input:read-only {
+  color: var(--color-text-soft);
+  background-color: var(--color-bg-alt);
+}
+
+.form-hint {
+  font-size: var(--fs-xs);
+  color: var(--color-text-faint);
+  margin-top: var(--space-2xs);
+}
+
+.form-actions {
+  margin-top: var(--space-lg);
+}
+
+.form-actions .btn {
+  width: 100%;
+}
+
+/* ==========================================================================
+   Data table (admin.html)
+   ========================================================================== */
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-md);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+  min-width: 720px;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: var(--space-xs) var(--space-sm);
+  border-bottom: 1px solid var(--color-border-soft);
+  white-space: nowrap;
+}
+
+.data-table th {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-xs);
+  color: var(--color-text-faint);
+  background-color: var(--color-bg-alt);
+}
+
+.data-table td {
+  color: var(--color-text-soft);
+  white-space: normal;
+}
+
+.data-table tbody tr:hover {
+  background-color: var(--color-bg-alt);
+}
+
+/* ==========================================================================
+   Simple centered message (thankyou.html)
+   ========================================================================== */
+
+.message-block {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-block: var(--space-2xl);
+}
+
+.message-block__inner {
+  max-width: 440px;
+}
+
+.message-block h1 {
+  margin-bottom: var(--space-sm);
+}
+
+.message-block p {
+  margin-inline: auto;
+  margin-bottom: var(--space-lg);
+}
+
+/* ==========================================================================
    Responsive
    ========================================================================== */
 
@@ -536,7 +714,8 @@ p {
     --container-pad: var(--space-sm);
   }
 
-  .product-grid {
+  .product-grid,
+  .story-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -551,7 +730,8 @@ p {
 }
 
 @media (max-width: 768px) {
-  .product-grid {
+  .product-grid,
+  .story-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-sm);
   }
@@ -604,5 +784,13 @@ p {
 
   .product-card__body {
     padding: var(--space-xs);
+  }
+
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-card {
+    padding: var(--space-md);
   }
 }

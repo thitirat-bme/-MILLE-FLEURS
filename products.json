@@ -7,7 +7,7 @@
       "size": "100 ml (Trial Size)",
       "price": 159,
       "image": "images/Recovery .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น สำหรับผมเสียจากความร้อนและสารเคมี ขนาดทดลองใช้ก่อนตัดสินใจ"
+      "description": "บำรุงผมเสียจากการทำเคมีอย่างล้ำลึกด้วย Hydrolyzed Keratin พร้อมกลิ่น Vanilla & Warm Amber หอมหวานละมุนระดับพรีเมียม"
     },
     {
       "id": "recovery-travel-150",
@@ -16,7 +16,7 @@
       "size": "150 ml (Travel Size)",
       "price": 199,
       "image": "images/Recovery .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น ขนาดพกพาสะดวก เหมาะกับการเดินทางหรือใช้ต่อเนื่องหลังไซส์ทดลอง"
+      "description": "บำรุงผมเสียจากการทำเคมีอย่างล้ำลึกด้วย Hydrolyzed Keratin พร้อมกลิ่น Vanilla & Warm Amber หอมหวานละมุนระดับพรีเมียม"
     },
     {
       "id": "recovery-value-300",
@@ -25,7 +25,7 @@
       "size": "300 ml (Value Size)",
       "price": 350,
       "image": "images/Recovery .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น ขนาดคุ้มค่า สำหรับการดูแลผมเสียอย่างต่อเนื่องในทุกสัปดาห์"
+      "description": "บำรุงผมเสียจากการทำเคมีอย่างล้ำลึกด้วย Hydrolyzed Keratin พร้อมกลิ่น Vanilla & Warm Amber หอมหวานละมุนระดับพรีเมียม"
     },
     {
       "id": "recovery-family-500",
@@ -34,7 +34,7 @@
       "size": "500 ml (Family Size)",
       "price": 490,
       "image": "images/Recovery .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรฟื้นฟูเข้มข้น ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+      "description": "บำรุงผมเสียจากการทำเคมีอย่างล้ำลึกด้วย Hydrolyzed Keratin พร้อมกลิ่น Vanilla & Warm Amber หอมหวานละมุนระดับพรีเมียม"
     },
     {
       "id": "scalp-trial-100",
@@ -43,7 +43,7 @@
       "size": "100 ml (Trial Size)",
       "price": 159,
       "image": "images/Scalp Balance .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ลดรังแคและอาการคัน ขนาดทดลองใช้ก่อนตัดสินใจ"
+      "description": "ล็อกความสดชื่น สยบความมันและรังแคด้วย Tea Tree & Peppermint ให้สัมผัสเย็นสบายหนังศีรษะเหมือนทำสปา"
     },
     {
       "id": "scalp-travel-150",
@@ -52,7 +52,7 @@
       "size": "150 ml (Travel Size)",
       "price": 199,
       "image": "images/Scalp Balance .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ขนาดพกพาสะดวก ให้หนังศีรษะสดชื่นทุกที่ทุกเวลา"
+      "description": "ล็อกความสดชื่น สยบความมันและรังแคด้วย Tea Tree & Peppermint ให้สัมผัสเย็นสบายหนังศีรษะเหมือนทำสปา"
     },
     {
       "id": "scalp-value-300",
@@ -61,7 +61,7 @@
       "size": "300 ml (Value Size)",
       "price": 350,
       "image": "images/Scalp Balance .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ขนาดคุ้มค่า สำหรับดูแลหนังศีรษะอย่างต่อเนื่อง"
+      "description": "ล็อกความสดชื่น สยบความมันและรังแคด้วย Tea Tree & Peppermint ให้สัมผัสเย็นสบายหนังศีรษะเหมือนทำสปา"
     },
     {
       "id": "scalp-family-500",
@@ -70,7 +70,7 @@
       "size": "500 ml (Family Size)",
       "price": 490,
       "image": "images/Scalp Balance .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรปรับสมดุลหนังศีรษะ ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+      "description": "ล็อกความสดชื่น สยบความมันและรังแคด้วย Tea Tree & Peppermint ให้สัมผัสเย็นสบายหนังศีรษะเหมือนทำสปา"
     },
     {
       "id": "moisture-trial-100",
@@ -79,7 +79,7 @@
       "size": "100 ml (Trial Size)",
       "price": 159,
       "image": "images/Deep Moisture .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดทดลองใช้ก่อนตัดสินใจ"
+      "description": "เติมน้ำให้ผมแห้งกรอบกลับมานุ่มนวล เงางามเปล่งประกาย พร้อมกลิ่น White Peach & Freesia หอมหวานสดใสมีเสน่ห์"
     },
     {
       "id": "moisture-travel-150",
@@ -88,7 +88,7 @@
       "size": "150 ml (Travel Size)",
       "price": 199,
       "image": "images/Deep Moisture .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดพกพาสะดวก เติมความเงางามได้ทุกที่"
+      "description": "เติมน้ำให้ผมแห้งกรอบกลับมานุ่มนวล เงางามเปล่งประกาย พร้อมกลิ่น White Peach & Freesia หอมหวานสดใสมีเสน่ห์"
     },
     {
       "id": "moisture-value-300",
@@ -97,7 +97,7 @@
       "size": "300 ml (Value Size)",
       "price": 350,
       "image": "images/Deep Moisture .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดคุ้มค่า สำหรับผมนุ่มเงางามต่อเนื่อง"
+      "description": "เติมน้ำให้ผมแห้งกรอบกลับมานุ่มนวล เงางามเปล่งประกาย พร้อมกลิ่น White Peach & Freesia หอมหวานสดใสมีเสน่ห์"
     },
     {
       "id": "moisture-family-500",
@@ -106,7 +106,7 @@
       "size": "500 ml (Family Size)",
       "price": 490,
       "image": "images/Deep Moisture .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรเพิ่มความชุ่มชื้นและเงางาม ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+      "description": "เติมน้ำให้ผมแห้งกรอบกลับมานุ่มนวล เงางามเปล่งประกาย พร้อมกลิ่น White Peach & Freesia หอมหวานสดใสมีเสน่ห์"
     },
     {
       "id": "organic-trial-100",
@@ -115,7 +115,7 @@
       "size": "100 ml (Trial Size)",
       "price": 159,
       "image": "images/Organic .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง บำรุงรากผมให้แข็งแรง ขนาดทดลองใช้ก่อนตัดสินใจ"
+      "description": "ลดผมขาดหลุดร่วงอย่างอ่อนโยนด้วยพลังไบโอตินและโสม พร้อมกลิ่น Citrus & Herbal ช่วยผ่อนคลายความเหนื่อยล้า"
     },
     {
       "id": "organic-travel-150",
@@ -124,7 +124,7 @@
       "size": "150 ml (Travel Size)",
       "price": 199,
       "image": "images/Organic .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง ขนาดพกพาสะดวก ดูแลรากผมได้ทุกที่"
+      "description": "ลดผมขาดหลุดร่วงอย่างอ่อนโยนด้วยพลังไบโอตินและโสม พร้อมกลิ่น Citrus & Herbal ช่วยผ่อนคลายความเหนื่อยล้า"
     },
     {
       "id": "organic-value-300",
@@ -133,7 +133,7 @@
       "size": "300 ml (Value Size)",
       "price": 350,
       "image": "images/Organic .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง ขนาดคุ้มค่า สำหรับบำรุงรากผมอย่างต่อเนื่อง"
+      "description": "ลดผมขาดหลุดร่วงอย่างอ่อนโยนด้วยพลังไบโอตินและโสม พร้อมกลิ่น Citrus & Herbal ช่วยผ่อนคลายความเหนื่อยล้า"
     },
     {
       "id": "organic-family-500",
@@ -142,7 +142,7 @@
       "size": "500 ml (Family Size)",
       "price": 490,
       "image": "images/Organic .jpg",
-      "description": "ทรีทเม้นท์หมักผมสูตรออร์แกนิก ลดผมร่วง ขนาดครอบครัว ใช้ได้ยาวนานสำหรับทุกคนในบ้าน"
+      "description": "ลดผมขาดหลุดร่วงอย่างอ่อนโยนด้วยพลังไบโอตินและโสม พร้อมกลิ่น Citrus & Herbal ช่วยผ่อนคลายความเหนื่อยล้า"
     }
   ]
 }
